@@ -67,7 +67,7 @@ as the first doesn't change global scope so the developers would not have unexpe
 TypeScript can't generate UMD files with window fallback for global namespace to work under the browser.
 https://github.com/Microsoft/TypeScript/issues/8436
 So we have to use bundler to make a package. There are some of them:  
-8. Webpack, RequireJS, Browserify,  SystemJS/JSPM, Rollup, Amdclean or uRequire?
+8. Webpack, RequireJS, Browserify,  SystemJS/JSPM, Rollup, Amdclean or uRequire?  
 Amdclean allows to run modules without loader and it doesn't have runtime overhead.  
 ...[to be discovered]  
   
