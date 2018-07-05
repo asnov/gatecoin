@@ -1,0 +1,43 @@
+{
+  "name": "gatecoin",
+  "version": "0.0.2",
+  "description": "Gatecoing API JavaScript/TypeScript client",
+  "main": "dist/index.js",
+  "browser": "dist/index-browser.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/asnov/gatecoin.git",
+  "author": "Alex Novikov <alex@asnovikov.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "",
+    "test": "",
+    "lint": "",
+    "e2e": "",
+    "e2e-report": "serenity update; serenity run; open target/site/serenity/index.html",
+    "serenity": "serenity"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/cucumber": "^4.0.4",
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^10.5.1",
+    "amdclean": "^2.7.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-smoothie": "^0.3.2",
+    "codelyzer": "^4.4.2",
+    "cucumber": "^4.2.1",
+    "jasmine": "^3.1.0",
+    "jasmine-core": "^3.1.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "serenity-cli": "^0.9.2",
+    "serenity-js": "^1.10.13",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "fetch-ponyfill": "^6.0.2"
+  }
+}
