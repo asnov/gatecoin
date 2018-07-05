@@ -36,6 +36,8 @@ C# library: https://github.com/Gatecoin/api-gatecoin-dotnet
   
   
 ## Architecture decisions  
+It looks like a good idea to document why we decided to use these tool but not the other. Or why we chose this approach but not the other.
+After some time the reasons could change so the architecture could be reviewed.  
   
 1. The same code-base for Node.js and for the browsers.  
 It is possible to create and support two different versions for the server-side usage (Node.js) and for the browser.
@@ -66,7 +68,7 @@ TypeScript can't generate UMD files with window fallback for global namespace to
 https://github.com/Microsoft/TypeScript/issues/8436
 So we have to use bundler to make a package. There are some of them:  
 8. Webpack, RequireJS, Browserify,  SystemJS/JSPM, Rollup, Amdclean or uRequire?
-Amdclean doesn't have runtime overhead.  
+Amdclean allows to run modules without loader and it doesn't have runtime overhead.  
 ...[to be discovered]  
   
   
